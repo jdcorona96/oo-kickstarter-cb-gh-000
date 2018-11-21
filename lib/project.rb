@@ -6,8 +6,7 @@ class Project
 
   end
 
-  attr_accessor :title
-  attr_reader :backer
+  attr_accessor :title, :backers
 
   def add_backer(backer)
     @backer << backer
