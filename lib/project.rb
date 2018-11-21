@@ -4,4 +4,6 @@ class Project
     @title = title
     
   end
+
+  attr_accessor :title
 end
